@@ -3,6 +3,5 @@ PyPDF2
 langchain
 langchain-community
 faiss-cpu
-openai
-langchain-groq
+transformers
 sentence-transformers
