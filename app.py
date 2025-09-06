@@ -25,7 +25,7 @@ with st.sidebar:
             "llama-3.1-70b-versatile",
             "mixtral-8x7b-32768"
         ],
-        index=1  # default to "llama-3.1-70b-instant"
+        index=0  # default to "llama-3.1-8b-instant"
     )
 
 # Extract text
@@ -71,4 +71,5 @@ if file is not None:
         response = chain.invoke({"input_documents": match, "question": user_question})
 
         st.subheader("Answer:")
+
         st.write(response["output_text"])
