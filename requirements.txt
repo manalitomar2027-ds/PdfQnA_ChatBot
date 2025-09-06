@@ -5,3 +5,4 @@ langchain-community
 faiss-cpu
 openai
 langchain-groq
+sentence-transformers
